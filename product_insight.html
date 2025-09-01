@@ -85,6 +85,15 @@
 
   <h2>🌿 Product Seasonal Insight </h2>
 
+  <!-- 🔙 Back Button -->
+  <div style="text-align: right; margin-bottom: 1rem;">
+   <a href="{{ url_for('main.transactions') }}">
+     <button style="background-color: #e59873; color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 10px; cursor: pointer; margin-bottom: 1rem;">
+      🔙 Back to Transaction History
+     </button>
+   </a>
+  </div>
+
   <!-- 🌱 1. Form: Already Corrected Placed -->
   <form method="POST">
     <label>Product Name:</label>
